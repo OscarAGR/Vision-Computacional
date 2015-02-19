@@ -89,6 +89,7 @@ for average in percentage: #muestra el id de la etiqueta y el porcentaje de colo
   
 Image2 = 'FeatureDetection.jpg'
 image.save(Image2)
+image.show()
 print "Finish"
 
 
