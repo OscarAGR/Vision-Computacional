@@ -61,12 +61,12 @@ for a in range(width):
 new_background = percentage.index(max(percentage)) #Calcular el porcentaje maximo
 max_percentage_color = percentage[new_background][1] #Seleccion de color de acuerdo al porcentaje
 
-#Coloreo de gris el color con mayor porcentaje
+#Coloreo de azul el color con mayor porcentaje
 for i in range(width):
     for j in range(high):
      if imagen[i,j]==max_percentage_color:
-         percentage[new_background][1]=(120,120,120)
-         imagen[i,j]=(120,120,120)
+         percentage[new_background][1]=(25,25,112)
+         imagen[i,j]=(25,25,112)
 
 # Test2 = image.save('Test2.png') Guarde esta parte para mejor explicacion en pdf            
 print "Print Values:\n"
